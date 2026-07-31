@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment variables / API keys
+.env
+.env.local
+.env.development
+.env.production
+
+# Build output
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# NitroStack generated/cache files
+.nitro/
+.cache/
+
+# Firebase local files
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
